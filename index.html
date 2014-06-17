@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="content-type" content="text/html,charset=utf-8" />
+
+  <title>:: Polygon Editor ::</title>
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style/design.css" />
+
+</head>
+<body>
+
+  <div class="page">
+
+    <h2 class="header">Polygon Editor</h2>
+
+    <div class="controls">
+      <label class="controls-button"for="load-btn">Load</label>
+      <input class="button--hidden" type="file" id="load-btn"/>
+      <button class="controls-button" id="save-btn">Save</button>
+      <span class="controls-position" id="position-container"></span>
+      <button class="controls-button right" id="example-btn">Example</button>
+    </div>
+
+    <div class="editor-container" id="editor-container"></div>
+
+  </div>
+
+<!-- scripts -->
+<script src="code/misc/adapter.js"></script>
+<script src="code/misc/utils.js"></script>
+<script src="code/entities/point.js"></script>
+<script src="code/entities/polygon.js"></script>
+<script src="code/app/editor.js"></script>
+<script src="code/app/controls.js"></script>
+<script src="code/main.js"></script>
+
+</body>
+</html>

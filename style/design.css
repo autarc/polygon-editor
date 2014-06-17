@@ -1,0 +1,86 @@
+/**
+ *  Design
+ *  ======
+ */
+
+/** ---------------- **/
+
+*, *::before, *::after {
+  padding: 0;
+  margin:  0;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/** ---------------- **/
+
+body {
+  background-color: #EEE;
+}
+
+canvas {
+
+  display: block;
+  background-color: rgb(100, 109, 150); /** rgb(71, 73, 83) rgb(182, 209, 173); **/
+
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+
+/** ---------------- **/
+
+.right {
+  float: right;
+}
+
+/** ---------------- **/
+
+.page {
+
+  /** ~ editor container **/
+  width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.controls-button {
+  font-size: 1.5rem;
+  background-color: rgb(248, 215, 167);
+  padding: 0.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.controls-button:active {
+  background-color: rgb(224, 193, 146);
+}
+
+.button--hidden {
+  display: none;
+}
+
+.controls-position {
+  font-size: 1.5rem;
+  margin-left: 5rem;
+}
+
+/** ---------------- **/
+
+.editor-container {
+  margin-top: 0.5rem;
+  width: 600px;
+  height: 480px;
+}
